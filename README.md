@@ -1,11 +1,15 @@
 # QLDS Manager
 
+## Download
+
+Grab the latest stable version from https://github.com/rzeka/QLDS-Manager/releases
+
 ## Default locations
 
 * SteamCMD - `$HOME/steamcmd/`
 * QL server files - `$HOME/QLserver`
 
-To change those directories, open `qlds.sh` script and edit lines 6 and 7:
+To change those directories, open `qlds.sh` script and edit those lines:
 
 ```bash
 STEAMCMD_DIR="$HOME/steamcmd"
@@ -28,8 +32,8 @@ To install or update QL server files
 
 To run server, use script with `run` argument. It requires 2 additional arguments:
 
-* Server config file location
-* Server ID
+* Server-list file location
+* Server ID from server-list
 
 Eg.:
 `./qlds.sh run /home/qlserver/qlds_config 0`
